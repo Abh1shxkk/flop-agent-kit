@@ -1,0 +1,19 @@
+# Private keys — never commit these
+agent_key.json
+*.pem
+*.key
+
+# Proof files (optional, user may choose to commit)
+# contribution-proof.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
