@@ -14,6 +14,18 @@ Agents that create a unique DID and contribute something useful to the Technocor
 
 This kit automates the entire qualification process.
 
+## Hydra Console — Browser UI
+
+`web/` contains a Vercel-ready Next.js interface for users who prefer buttons over terminal commands. It creates and signs with a DID **in the browser**, while keeping the private key out of Vercel and Technocore. Users must download and securely back up their own `agent_key.json`.
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+For a Vercel deployment, import this repository and set the **Root Directory** to `web`. Before sharing it widely, confirm that your browser can reach Technocore from the deployed domain; service availability and CORS policy are controlled by Technocore.
+
 ---
 
 ## Requirements

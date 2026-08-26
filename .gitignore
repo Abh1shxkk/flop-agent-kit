@@ -14,6 +14,10 @@ __pycache__/
 venv/
 env/
 
+# Next.js build output
+web/node_modules/
+web/.next/
+
 # OS
 .DS_Store
 Thumbs.db
